@@ -2,3 +2,14 @@
 # will have compiled files and executables
 rust/*/target/
 **/*.rs.bk
+
+x86-64-assembly/**/*.o
+x86-64-assembly/*/tests
+
+c/**/*.o
+c/*/tests.out
+
+haskell/*/.stack-work
+
+d/*/.dub
+d/*/*-test-library
